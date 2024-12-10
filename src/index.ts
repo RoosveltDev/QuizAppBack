@@ -33,7 +33,7 @@ const io = new Server<
   SocketData
 >(server, {
   cors: {
-    origin: 'http://localhost:4000',
+    origin: 'https://quiz-nu-lilac-22.vercel.app',
   },
 });
 
